@@ -1,5 +1,5 @@
 function performOperation(a, b, callback) {
-    displayResult(a+b);
+    callback(a+b);
   }
   
   function displayResult(result) {
